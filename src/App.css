@@ -1,0 +1,100 @@
+
+body {
+  background: floralwhite;
+}
+
+.App {
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: 100vh;
+  box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.1);
+  background: white;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.inputs {
+  margin: 20px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 15px;
+}
+
+input {
+  font-size: 10px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  width: 150px;
+  font-size: 20px;
+}
+
+/* figure {
+  width: 240px;
+  height: 240px;
+} */
+
+/* img {
+  height: 100%;
+} */
+
+.posts {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  width: 500px;
+  justify-content: space-evenly;
+  box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 300px;
+  /* background-color: #2766EB;
+  color: white; */
+}
+
+h5 {
+  word-break: break-word;
+}
+
+.button {
+  width: 50px;
+  font-size: 10px;
+}
+
+.add {
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.emoji {
+  width: 300px;
+  margin-left: 150px;
+  position: fixed;
+}
+
+.header {
+  background: black;
+  color: white;
+  padding: 50px;
+}
